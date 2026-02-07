@@ -279,17 +279,12 @@
       "YROT" 0;
   }
 
-  background-image: url(bg_images/blomst.png), url(bg_images/pink.jpg);
-  background-size: 30%, 100%;
-  background-repeat: no-repeat;
-  background-position: top right;
   font-family: "Tilt Prism";
   color: #7a0453;
   font-size: 20px;
   font-weight: 600;
-  text-align: center;
+  text-shadow: 3px 3px 12px purple;
 }
-
 .box19 .content p::first-letter {
   color: #7a0453;
   font-size: 40px;
@@ -299,10 +294,12 @@
 
 /*Her kan du lave din egen gradient*/
 .box20 .content {
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: 900;
-  background-image: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-  background-size: 100%;
-
-  color: White;
+  text-align: center;
+  background-image: url(bg_images/blomst.png), radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  background-size: 30%, 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  color: white;
 }
